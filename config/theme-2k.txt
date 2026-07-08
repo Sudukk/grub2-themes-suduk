@@ -13,13 +13,13 @@ terminal-height: "100%"
 terminal-border: "0"
 # Show the boot menu
 + boot_menu {
-  left = 30%
+  left = 42%
   top = 30%
-  width = 40%
+  width = 16%
   height = 40%
   item_font = "Unifont Regular 24"
   item_color = "#dbff00"
-  selected_item_color = "#ffffff"
+  selected_item_color = "#dbff00"
   icon_width = 48
   icon_height = 48
   item_icon_space = 24
@@ -43,6 +43,6 @@ terminal-border: "0"
   align = "center"
   id = "__timeout__"
   text = "Hello there Suduk, booting in %d seconds"
-  color = "#dbff00"
+  color = "#0002FF"
   font = "Unifont Regular 24"
 }
